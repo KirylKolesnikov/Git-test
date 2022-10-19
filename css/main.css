@@ -583,15 +583,10 @@ border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 60px;
+    gap: 20px;
     margin-bottom: 40px;
-    fill: #7e7e7f;
+    
        
 	
 }
 
-
-
-.contacts-footer {
-    color: #828282;
-}
