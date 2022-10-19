@@ -539,8 +539,19 @@ border-radius: 50%;
     transition-delay: 0.7s;
 }
 
-
-
+/* Bank Pay */
+.bank-pay {
+    margin-top: 95px;
+	display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+	
+}
+.pay-item {
+    width: 15%;
+}
 
 /* Footer */
 
