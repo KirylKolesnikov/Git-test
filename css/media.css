@@ -60,9 +60,27 @@
         flex-direction: column;
         font-size: 16px;
     }
+    .service-end ul li{
+        list-style: none;
+    }
     
     .work-list{
         font-size: 14px;
+    }
+    .lesson-end ul li{
+        list-style: none;
+    }
+    .text{
+        font-size: 12px;
+    }
+    .lesson-traid{
+        margin-top: 40px;
+    }
+    .trade-buy{
+        margin-top: 0px;
+    }
+    .flex-row{
+        flex: 1  1 0;
     }
     
 }
@@ -78,19 +96,57 @@
         list-style: none;
         
     }
+    
     .work-list ul li{
         list-style: none;
     }
     .service-item{
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 500;
     }
     .lesson-item{
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 500;
+    }
+    .lesson-end ul li{
+        list-style: none;
     }
     .work-list{
         font-size: 14px;
+    }
+    .text{
+        font-size: 12px;
+    }
+    .lesson-traid{
+        margin-top: 40px;
+    }
+    .trade-buy{
+        margin-top: 0px;
+    }
+    .price-title{
+        font-size: 18px;
+    }
+    .buy-standart{
+        font-size: 12px;
+    }
+    .font-wight{
+        font-size: 14px;
+        
+    }
+    .buy-item ul li{
+        font-size: 12px;
+    }
+    .flex-row{
+        flex: 1  1 0;
+    }
+    #gold-titler{
+        font-size: 12px;
+    }
+    .flex-row{
+        flex: 1 0;
+    }
+    .flex-row{
+        min-width: 315px;
     }
 
 }
