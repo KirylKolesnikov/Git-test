@@ -28,8 +28,12 @@
     .nav-button{
         position: fixed;
         z-index: 9;
-        top: 46px;
+        top: 56px;
         right: 30px;
+        
+    }
+    .portfolio{
+        scroll-margin-top: 30px;
     }
     .header-row{
         flex-direction: column;
