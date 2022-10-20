@@ -1,16 +1,50 @@
 AOS.init();
 
-const nav = document.querySelector('#nav');
+const anchors = document.querySelectorAll('a[href*="#"]');
+
+anchors.forEach(anchor => {
+	anchor.addEventListener('click', e => {
+		e.preventDefault();
+
+		const blockID = anchor.getAttribute('href').substring(1);
+
+		document.getElementById(blockID).scrollIntoView({
+			behavior: 'smooth',
+			block: 'start',
+		})
+	})
+})
+
+    const nav = document.querySelector('#nav');
     const navBtn = document.querySelector('#nav-btn');
     const navBtnImg = document.querySelector('#nav-btn-img');
+    const boby = document.querySelector('body');
+    const nav_link = document.querySelectorAll('#clicker');
+    
+    nav_link.forEach(n => n.addEventListener ("click", closeMenu));
+    function closeMenu (){
+      nav.classList.remove('open');
+    
+
+    }
+    
+
     
     navBtn.onclick = () => {
+      
         if (nav.classList.toggle('open')) {
             navBtnImg.src = "./img/icons/nav-close.svg";
+            
         } else {
             navBtnImg.src = './img/icons/nav-open.svg';
+            
         }
+        
+        
     }
+    
+    
+    
 
 
 $(function(){

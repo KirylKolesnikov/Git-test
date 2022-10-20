@@ -4,7 +4,9 @@ body {
     color: #000;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
-    
+}
+body.noscroll{
+    overflow: hidden;
 }
 
 .container {
@@ -76,6 +78,9 @@ body {
     height: 8px;
     background-color: #FDA300;
     border-radius: 50%;
+}
+.portfolio{
+    scroll-margin-top: 80px;
 }
 
 /* Nav */
