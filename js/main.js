@@ -24,10 +24,10 @@ anchors.forEach(anchor => {
     nav_link.forEach(n => n.addEventListener ("click", closeMenu));
     function closeMenu (){
       nav.classList.remove('open');
-    
+      navBtnImg.src = "./img/icons/nav-open.svg";
+      
 
     }
-    
 
     
     navBtn.onclick = () => {
@@ -40,11 +40,10 @@ anchors.forEach(anchor => {
             
         }
         
+    
         
     }
-    
-    
-    
+  
 
 
 $(function(){
