@@ -25,7 +25,7 @@ anchors.forEach(anchor => {
     function closeMenu (){
       nav.classList.remove('open');
       navBtnImg.src = "./img/icons/nav-open.svg";
-      body.classList.toggle('.noscroll');
+      body.classList.toggle('noscroll');
       
 
     }
